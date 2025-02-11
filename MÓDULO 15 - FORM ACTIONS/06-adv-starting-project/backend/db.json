@@ -1,0 +1,39 @@
+{
+  "opinions": [
+    {
+      "id": 1737636833627,
+      "votes": 4,
+      "userName": "OlhaTesteSubmit",
+      "title": "OlhaTesteSubmit",
+      "body": "OlhaTesteSubmit"
+    },
+    {
+      "id": 1737636778353,
+      "votes": 4,
+      "userName": "BrunoCosta",
+      "title": "teste",
+      "body": "teste12345678910"
+    },
+    {
+      "id": 1737635645611,
+      "votes": 1,
+      "userName": "Bruno Costa",
+      "title": "Disney sucks",
+      "body": "All new disney movie's suck!"
+    },
+    {
+      "id": 1,
+      "userName": "Maximilian Schwarzmüller",
+      "title": "Do yourself a favor and learn React!",
+      "body": "React is an amazing JavaScript library!\n\nDespite all it's shortcomings.",
+      "votes": 1
+    },
+    {
+      "id": 2,
+      "userName": "Maximilian Schwarzmüller",
+      "title": "React has more depth than you might first think!",
+      "body": "React is a great library to learn, but it's not just about the basics. Dive deeper!\nFor example with this course!",
+      "votes": 0
+    }
+  ]
+}
