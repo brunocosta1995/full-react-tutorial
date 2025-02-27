@@ -8,6 +8,7 @@ import HomePage from "./pages/Home";
 import ProductsPage from "./pages/Products";
 import RootLayout from "./pages/Root";
 import ErrorPage from "./pages/Error";
+import ProductsDetailPage from "./pages/ProductsDetail";
 
 /* ALTERNATIVA NA CRIAÇÃO DE ROUTES
 const routeDefinitions = createRoutesFromElements(
@@ -21,12 +22,13 @@ const router = createBrowserRouter(routeDefinitions);
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/",                                 // Absolute Path
     element: <RootLayout />,
-    errorElement: <ErrorPage/>,
+    errorElement: <ErrorPage />,
     children: [
-      { path: "/", element: <HomePage /> },
-      { path: "/products", element: <ProductsPage /> },
+      { index: true, element: <HomePage /> },                 //Componente que vai ser carregado no path root
+      { path: "products", element: <ProductsPage /> },                   // Relative Path
+      { path: "products/:productId", element: <ProductsDetailPage /> },
     ],
   },
 ]);
