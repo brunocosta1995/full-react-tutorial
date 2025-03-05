@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Linkin park show in SP","image":"https://cdn.getcrowder.com/images/5008608a-21e7-456f-bb99-ea9ff66b2e5a-40d4fd9e-fbe1-4c8b-ad99-e64caff6da3b-linkinpark640x640v3.webp","date":"2025-03-12","description":"This is a linkin park show from the tour from zero.","id":"f96b5bc8-ccb3-4d05-bde7-440894c3c78e"},{"title":"Champioship LOL","image":"https://www.gl-events.com/sites/default/files/styles/max_2600x2600/public/2019-03/gl_events_venues_riocentro_jeuness_congress.jpg?itok=iBTJdcEr","date":"2025-03-08","description":"The final of LOL.","id":"227d7560-a39a-4b71-abd8-495f08822a12"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}

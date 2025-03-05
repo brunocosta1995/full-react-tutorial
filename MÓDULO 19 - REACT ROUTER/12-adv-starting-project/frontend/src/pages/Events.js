@@ -5,7 +5,7 @@ function EventsPage() {
   const data = useLoaderData();
   const events = data.events;
   if (data.isError) {
-    return <p>{data.message}</p>
+    return <p>{data.message}</p>;
   }
 
   return (
@@ -22,8 +22,13 @@ export async function loader() {
 
   if (!response.ok) {
     // return {isError: true, message: "Could not fetch the data",};
+
     // return {message: 'Error on fetching the events'};
-    throw new Response(JSON.stringify({message: 'Error on fetching the events'}), {status: 500});
+
+    throw new Response(
+      JSON.stringify({ message: "Error on fetching the events" }),
+      { status: 500 }
+    );
   } else {
     return response;
 
