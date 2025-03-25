@@ -9,8 +9,9 @@ import EventItem from './EventItem.jsx';
 export default function NewEventsSection() {
 
   const {data, isPending, isError, error} = useQuery({
-    queryKey: ['events'],
-    queryFn: fetchEvents,
+    queryKey: ['events', {max: 3}],
+    queryFn: ({signal, queryKey}) => fetchEvents({signal, ...queryKey[1]}), //..queryKey[1] - vai pegar a segunda chave como parâmetro
+    
     staleTime: 5000,  //de quanto em quanto tempo será realizado requisições para atualizar a página
     //gcTime: 30000//The time in milliseconds that unused/inactive cache data remains in memory - padrão 5min
   })
